@@ -1,0 +1,30 @@
+{
+    "author" : "Siddharth Trehan",
+    "name" : "node-thing-server-mongo",
+    "description" : "A server for node-thing that uses MongoDB to store device data and communications",
+    "version" : "0.0.1",
+    "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/trehansiddharth/node-thing-server-mongo"
+    },
+    "dependencies" : {
+        "mongodb" : "~2.0",
+        "mongo-oplog" : "1.0.0",
+        "log4js" : "~0.6",
+        "events" : "~1.0"
+    },
+    "keywords" : [
+        "node-thing",
+        "internet of things",
+        "mongo"
+    ],
+    "main" : "./lib/node-thing-server-mongo.js",
+    "bin" : {
+        "node-thing" : "./bin/node-thing-server-mongo"
+    },
+    "devDependencies" : {},
+    "optionalDependencies" : {},
+    "engines" : {
+        "node" : "*"
+    }
+}
